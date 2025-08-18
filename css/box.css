@@ -1,0 +1,35 @@
+.box {
+  display : inline-block;
+  margin : 20px;
+  width : 300px;
+  height : 300px;
+  font-family : "Vazirmatn", sans-serif;
+  border : 1px solid lightgray;
+  font-size : 20px;
+
+.box1 {
+  display : inline-block;
+  width : 250px;
+  height : 200px;
+  font-family : "Vazirmatn", sans-serif;
+  font-size : 20px;
+
+  a {
+    color : #2779cb;
+    display : inline;
+    margin-left : 140px;
+    margin-bottom : 10px;
+  }
+}
+
+.date {
+  margin-left : 5px;
+  display : inline;
+  color : gray;
+  margin-bottom : 10px;
+}
+
+.thumbnail {
+  width : 300px
+}
+
