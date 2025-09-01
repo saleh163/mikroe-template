@@ -177,12 +177,6 @@
     
 
 
-          <div>
-            <a href="">
-              <h2>بروز رسانی روزانه از استدیو نستو</h2>
-            </a>
-          </div>
-
 
 
 
@@ -191,12 +185,22 @@
 
     <div class="fourbox">
       <div role="listbox" class="onebox-txt">
-
+        <h6>جدید</h6>
+        <ul>
+          <li>Lorem ipsum is a dummy or placeholder text commonly used</li>
+        </ul>
       </div>
       <div class="onebox-txt">
-
+         <h6>جدید</h6>
+        <ul>
+          <li>Lorem ipsum is a dummy or placeholder text commonly used</li>
+        </ul>
       </div>
       <div class="onebox-txt">
+          <h6>جدید</h6>
+        <ul>
+          <li>Lorem ipsum is a dummy or placeholder text commonly used</li>
+        </ul>
        
       </div>
       <div class="onebox-img">
@@ -396,4 +400,4 @@
       </div>
     </footer>
   </body>
-</html>
+<

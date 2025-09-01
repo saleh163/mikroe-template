@@ -1,0 +1,26 @@
+.fourbox {
+  width: 1300px;
+  height: 320px;
+}
+
+.onebox-img {
+  display: inline-block;
+  width : 300px;
+  height : 300px;
+  margin: 7px;
+  border : 1px solid lightgray;
+}
+
+.onebox-txt {
+  display: inline-block;
+  width : 260px;
+  height : 300px;
+  margin: 7px;
+  border : 1px solid lightgray;
+  padding :20px;
+}
+
+.box-img {
+  width :300px;
+  height : 300px;
+}

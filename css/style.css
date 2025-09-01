@@ -4,13 +4,22 @@
   font-style: normal;
 }
 
+.main {
+  padding-top : 60px;
+}
+
 .header {
   background-color : #231F20;
   height : 60px;
+  margin : 0;
+  top : 0px;
+  position : fixed;
+  left: 0px;
+  right: 0px;
 }
 
 .logo {
-
+  padding-top : 15px;
   height: 35px;
   margin-right : 65px;
 }
@@ -18,12 +27,23 @@
 a {
   color : white;
   margin-right : 20px;
+  text-decoration: none;
+}
+
+.category {
+  margin-bottom : 10px;
+  display : inline;
+}
+
+.category:hover {
+  color : black;
 }
 
 .mainPicture {
-  margin-top : 20px;
+  margin-top : 70px;
   height : 300px;
   width :1280px;
+
 }
 
 h2 {
@@ -33,6 +53,30 @@ h2 {
 .footer-page {
   background-color : #231f20;
   color : white;
+}
+
+.sub {
+  
+}
+
+.sub-t {
+  background-color : #DDDED9;
+  height : 50px;
+  width : 330px;
+  border : none;
+  color: #000;
+  font-size : 20px;
+  padding: 0;
+  margin-right: -5px;
+}
+
+.sub-b {
+  background-color : #BD970D;
+  border : none;
+  height : 50px;
+  width : 185px;
+  padding: 0;
+  margin: 0;
 }
 
 .links {
@@ -50,4 +94,24 @@ h2 {
 
 .copyright {
   height : 60px;
+}
+
+footer {
+  padding: 0px;
+  margin : 0px;
+  bottom : 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.search-b {
+  background-color : #231F20;
+  border: none;
+}
+
+.search-t {
+  background-color : #231F20;
+  color : #ffffff;
+  height : 40px;
+  border : none;
 }
