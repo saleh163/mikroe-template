@@ -1,6 +1,7 @@
 .fourbox {
   width: 1300px;
   height: 320px;
+  margin-bottom : 100px;
 }
 
 .onebox-img {
@@ -13,14 +14,22 @@
 
 .onebox-txt {
   display: inline-block;
-  width : 260px;
+  width : 300px;
   height : 300px;
   margin: 7px;
   border : 1px solid lightgray;
-  padding :20px;
+}
+
+.onebox-txt1 {
+  display: inline-block;
+  width : 300px;
+  height : 300px;
+  margin: 7px;
+  border : 1px solid #FFCB05;
 }
 
 .box-img {
   width :300px;
   height : 300px;
+  cursor: pointer;
 }

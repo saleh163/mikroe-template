@@ -30,18 +30,17 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color : #EFBF06;
-  transition : 0.1s;
-}
-
 .category {
-  padding-bottom : 10px;
+  margin-bottom : 10px;
   display : inline;
 }
 
 .category:hover {
   color : black;
+}
+
+.mainP {
+  position: relative;
 }
 
 .mainPicture {
@@ -53,11 +52,6 @@ a:hover {
 
 h2 {
   color : #68686A;
-  text-align : right;
-}
-
-h2:hover {
-  color : lightblue;
 }
 
 .footer-page {
@@ -66,7 +60,7 @@ h2:hover {
 }
 
 .sub {
-  display : inline;
+  
 }
 
 .sub-t {
@@ -91,24 +85,19 @@ h2:hover {
 
 .links {
   height : 550px;
-  display : grid;
 }
 
 .join-us {
-  padding-top : 30px;
-  height : 100px;
+  height : 70px;
   background-color : #707070;
 }
 
-.join-us p {
-  color : yellow;
-  font-size : 60px;
+.join-us {
+  height : 186px;
 }
 
 .copyright {
-  padding-top : 12px;
-  height : 30px;
-  padding-bottom : 5px;
+  height : 60px;
 }
 
 footer {
@@ -131,20 +120,50 @@ footer {
   border : none;
 }
 
-ul {
-    list-style-type: none;
+.nav-btn1 {
+  position: absolute;
+  top : 350px;
+  left : 755px;
 }
 
-.platform {
-  height : 60px;
+.nav-btn2 {
+  position: absolute;
+  top : 350px;
+  left : 775px;
 }
 
-.box a {
-  coler : blue;
+.nav-btn3 {
+  position: absolute;
+  top : 350px;
+  left : 795px;
 }
 
-.follow * {
-  display : inline;
-  font-size : 40px;
+.nav-btn4 {
+  position: absolute;
+  top : 350px;
+  left : 815px;
 }
+
+.nav-btn {
+  background-color: #234C5D;
+  border: none;
+  border-radius : 100px;
+  width : 10px;
+  height : 10px;
+}
+
+.nav-btn:hover {
+  background-color : yellow;
+}
+
+h2:hover {
+  color : lightblue;
+}
+
+.more {
+  color: #1C72C9;
+  margin-bottom : 10px;
+  margin-left : 100px;
+}
+
 
