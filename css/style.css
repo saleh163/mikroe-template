@@ -30,8 +30,13 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color : #EFBF06;
+  transition : 0.1s;
+}
+
 .category {
-  margin-bottom : 10px;
+  padding-bottom : 10px;
   display : inline;
 }
 
@@ -48,6 +53,11 @@ a {
 
 h2 {
   color : #68686A;
+  text-align : right;
+}
+
+h2:hover {
+  color : lightblue;
 }
 
 .footer-page {
@@ -56,7 +66,7 @@ h2 {
 }
 
 .sub {
-  
+  display : inline;
 }
 
 .sub-t {
@@ -81,19 +91,24 @@ h2 {
 
 .links {
   height : 550px;
+  display : grid;
 }
 
 .join-us {
-  height : 70px;
+  padding-top : 30px;
+  height : 100px;
   background-color : #707070;
 }
 
-.join-us {
-  height : 186px;
+.join-us p {
+  color : yellow;
+  font-size : 60px;
 }
 
 .copyright {
-  height : 60px;
+  padding-top : 12px;
+  height : 30px;
+  padding-bottom : 5px;
 }
 
 footer {
@@ -115,3 +130,21 @@ footer {
   height : 40px;
   border : none;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.platform {
+  height : 60px;
+}
+
+.box a {
+  coler : blue;
+}
+
+.follow * {
+  display : inline;
+  font-size : 40px;
+}
+

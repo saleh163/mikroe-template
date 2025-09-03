@@ -1,0 +1,127 @@
+              <div>
+                <p class='title-h'>میکروه</p>
+                <p> میکروه یک شرکت توسعه دهنده ابزار بر اساس استاندارد سازی و ذخیره زمان در صنایع سیستم های نهفته است</p>
+              </div>
+              <div>
+                <ul>
+                    <li>
+                      <a href="">در باره ما</a>
+                    </li>
+                    <li>
+                      <a href="">وضعیت پایانی</a>
+                    </li>
+                    <li>
+                      <a href="">مخاطبین</a>
+                    </li>
+                    <li>
+                      <a href="">پرس کیت</a>
+                    </li>
+                    <li>
+                      <a href="">خط زمانی</a>
+                    </li>
+               </ul>
+              </div>
+              
+              <div>
+                <ul>
+                  <li>
+                    <a href="">شریکان</a>
+                  </li>
+                  <li>
+                    <a href="">قوانین</a>
+                  </li>
+                  <li>
+                    <a href="">توضیع کنندگان</a>
+                  </li>
+                  <li>
+                    <a href="">محصولات قدیمی</a>
+                  </li>
+                </ul>
+              </div>
+              
+              <div>
+                <p class='title-h'>راهکار ها</p>
+                <ul>
+                  <li>
+                    <a href="">برد های کلیکی</a>
+                  </li>
+                  <li>
+                    <a href="">برد های توسعه</a>
+                  </li>
+                  <li>
+                    <a href="">میکرومدیا</a>
+                  </li>
+                  <li>
+                    <a href="">کدگریپ</a>
+                  </li>
+                  <li>
+                    <a href="">استدویی نستو</a>
+                  </li>
+                  <li>
+                    <a href="">رفع مشکل پلنت</a>
+                  </li>
+                  <li>
+                    <a href="">کلیک ای دی</a>
+                  </li>
+                  <li>
+                    <a href="">کلیک اسنپ</a>
+                  </li>
+                  <li>
+                    <a href="">دانشنامه سیستم های نهفته</a>
+                  </li>
+                </ul> 
+              </div>
+              <div>
+                <p class='title-h'>پشتیبانی</p>
+                <ul>
+                  <li>
+                    <a href="">میز کمک</a>
+                  </li>
+                  <li>
+                    <a href="">انجمن</a>
+                  </li>
+                  <li>
+                    <a href="">لیب استاک</a>
+                  </li>
+                  <li>
+                    <a href="">یادگیری</a>
+                  </li>
+                  <li>
+                    <a href="">ساختن</a>
+                  </li>
+                  <li>
+                    <a href="">کتاب های الکترونیک</a>
+                  </li>
+                  <li>
+                    <a href="">پشیبانی  ویژه تکنیکال</a>
+                  </li>
+                  <li>
+                    <a href="">خدمات طراحی</a>
+                  </li>
+                  <li>
+                    <a href="">وژه سازی محصولات</a>
+                  </li>
+                  <li>
+                    <a href="">قرارداد ساخت وساز</a>
+                  </li>
+                </ul>
+              </div>
+              
+              <div>
+                <p class='title-h'>استاندارد ها</p>
+                <ul>
+                  <li>
+                    <a href="">microBUS™</a>
+                  </li>
+                  <li>
+                    <a href="">mikroSDK</a>
+                  </li>
+                  <li>
+                    <a href="">SiBRAIN</a>
+                  </li>
+                  <li>
+                    <a href="">DISCON</a>
+                  </li>
+                </ul>
+              </div>
+ 
