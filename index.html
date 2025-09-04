@@ -12,8 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/box.css">
     <link rel="stylesheet" type="" href="css/box2.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="script/extra.js" type="text/javascript"></script>
+    <script src="script/imgchanger.js"></script>
   </head>
   <body class="vazirmatn">
     <center>
@@ -72,11 +75,11 @@
     <main>
       <div>
         <div class="mainP">
-            <button class="nav-btn1 nav-btn" type=""></button>
-            <button class="nav-btn2 nav-btn" type=""></button>
-            <button class="nav-btn3 nav-btn" type=""></button>
-            <button class="nav-btn4 nav-btn" type=""></button>
-          <img class="mainPicture" src="./img/smart-displays---mikroemdia---homepage-banner_x1752572960_big.jpg" alt="mainPcture">
+            <button class="nav-btn1 nav-btn" onclick="imgch()" type=""></button>
+            <button class="nav-btn2 nav-btn" onclick="imgch()"type=""></button>
+            <button class="nav-btn3 nav-btn" onclick="imgch()"type=""></button>
+            <button class="nav-btn4 nav-btn"onclick="imgch()" type=""></button>
+          <img class="mainPicture" id="32" src="./img/smart-displays---mikroemdia---homepage-banner_x1752572960_big.jpg" alt="mainPcture">
         </div>
         <div>
           <a href="">
@@ -209,6 +212,12 @@
       </div>
     </div>
 
+          <div>
+            <a href="">
+              <h2>اخبار جدید</h2>
+            </a>
+          </div>
+
 
 
 
@@ -246,48 +255,88 @@
 
       </div>
     </main>
-    <footer>
-      <div class="footer-page">
-        <div class="links footer-page">
-            <div>
-              
-             
-              <div>
-                <div class="follow">
-                  <ul>
-                    <li>
-                      <a href="https://cdnlogo.com/logo/instagram-glyph_467.html"><img class="platform" src="https://static.cdnlogo.com/logos/i/21/instagram-glyph.svg"></a>
-                    </li>
-                    <li>
-                      <a href="https://cdnlogo.com/logo/linkedin-icon_39542.html"><img class="platform" src="https://static.cdnlogo.com/logos/l/72/linkedin-icon.svg"></a>
-                    </li>
-                    <li>
-                      <a href="https://cdnlogo.com/logo/facebook-icon-black_39594.html"><img class="platform" src="https://static.cdnlogo.com/logos/f/98/facebook-icon-black.svg"></a>
-                    </li>
-                    <li>
-                      <a href="https://cdnlogo.com/logo/mastodon_130034.html"><img class="platform" src="https://static.cdnlogo.com/logos/m/33/mastodon.svg"></a>
-                    </li>
-                    <li>
-                      <p class="follow-us">: مارا دنبال کنید</p>
-                    </li>
-                  </ul>
-                    <div class="sub">
-                    <input type="textarea" class="sub-t" placeholder"آدرس ایمیل" name="" value="">
-                    <button type="" class="sub-b">SUBSCIBE</button>
+    <footer class="ft">
+         <div class="footer-container">
+            <div class="footer-section company-info">
+                <h2>میکرو</h2>
+                <p>میکرو یک شرکت است که بر اساس استاندارد سازی و صرفه جویی در زمان راهکار هایی ارایه میکند</p>
+                <ul>
+                    <li><a href="#">در مورد ما</a></li>
+                    <li><a href="#">تمام داستان</a></li>
+                    <li><a href="#">مخاطبین</a></li>
+                    <li><a href="#">پرس کیت</a></li>
+                    <li><a href="#">سیرزمانی</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>سلوشن ها</h2>
+                <ul>
+                    <li><a href="#">برد های کلیکی™</a></li>
+                    <li><a href="#">برد های توسع</a></li>
+                    <li><a href="#">میکرو مدیا</a></li>
+                    <li><a href="#">کدگریپ</a></li>
+                    <li><a href="#">استدیو نتسو</a></li>
+                    <li><a href="#">پلنت دیباگ</a></li>
+                    <li><a href="#">شناسه کلیک</a></li>
+                    <li><a href="#">اسنپ کلیک</a></li>
+                    <li><a href="#">دانشنامه</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>پشتیبانی</h2>
+                <ul>
+                    <li><a href="#">میز کمک</a></li>
+                    <li><a href="#">فروم ها</a></li>
+                    <li><a href="#">لیب استاک</a></li>
+                    <li><a href="#">یادگیری</a></li>
+                    <li><a href="#">شروع ساخت</a></li>
+                    <li><a href="#">کتاب های الکترونیک</a></li>
+                    <li><a href="#">پریمیوم تی اس</a></li>
+                    <li><a href="#">خدمات طراحی</a></li>
+                    <li><a href="#">سفارشی سازی پرودکست</a></li>
+                    <li><a href="#">قرارداد ساخت</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>استاندارد ها</h2>
+                <ul>
+                    <li><a href="#">میکروباس</a></li>
+                    <li><a href="#">میکرو اس دی کی</a></li>
+                    <li><a href="#">سیبرین</a></li>
+                    <li><a href="#">دیسکان</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>شریکان</h2>
+                <ul>
+                    <li><a href="#">قانونی</a></li>
+                    <li><a href="#">توضیع ها</a></li>
+                    <li><a href="#">محصولات قدیمی</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="media footer-page">
-          
+        <div class="footer-container">
+            <div  style="bottom: 50px;" class="subscribe-section">
+                <input type="email" placeholder="Email address">
+                <button type="submit">SUBSCRIBE &#128266;</button>
+            </div>
+            <div class="social-section">
+                <p>مارا دنبال کنید:</p>
+                <a href="#"><img src="./img/x-twitter-gray.svg" alt=""></a>
+                <a href="#"><img src="./img/x-twitter-gray.svg"></a>
+                <a href="#"><img src="./img/x-twitter-gray.svg" alt=""></a>
+            </div>
         </div>
-        <div class="join-us footer-page">
-          <p style="display: inline; margin-right: 1200px; font-size : 25px;">به ما بپیوندید</p>
-          <a href="" style="display: inline;">فرصت های کاری</a>
-          <a href="">کاراموزی</a>
+        <div class="join-section">
+            <a href="#">به ما بپیوندید</a>
+            <a href="#">فرصت ها کاری</a>
+            <a href="#">کاراموزی</a>
         </div>
-        <div class="copyright footer-page">
-          <h5 style="display: inline; margin-right: 1250px;">کپی رایت © ۲۰۲۵ الکترونیک میکوره </h5>
-          <a href="">حریم خصوصی</a>
+        <div class="footer-bottom">
+            <p>کپی رایت</p>
+            <a href="#">حریم خصوصی</a>
         </div>
-      </div>
     </footer>
+    
   </body>
 </html>
