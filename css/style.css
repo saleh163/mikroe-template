@@ -60,7 +60,7 @@ h2 {
 }
 
 .sub {
-  
+  display: inline;  
 }
 
 .sub-t {
@@ -88,16 +88,13 @@ h2 {
 }
 
 .join-us {
-  height : 70px;
+  height : 100px;
   background-color : #707070;
 }
 
-.join-us {
-  height : 186px;
-}
 
 .copyright {
-  height : 60px;
+  height : 20px;
 }
 
 footer {
@@ -167,3 +164,23 @@ h2:hover {
 }
 
 
+.platform {
+  padding-top: 20px;
+  height: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li{
+  display: inline;
+}
+
+ul li p {
+  display: inline;
+}
+
+.follow-us {
+  font-size: 40px;
+}
